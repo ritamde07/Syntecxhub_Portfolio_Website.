@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">DevPortfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section fade-in">
+        <div class="hero-content">
+            <h1>Hi, I'm <br><span class="gradient-text">A Web Developer</span></h1>
+            <p>I build interactive, responsive web applications and bridge the gap between software and hardware using modern technologies.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="blob"></div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-container fade-in">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, React</p>
+            </div>
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <p>Node.js, Express, MongoDB</p>
+            </div>
+            <div class="skill-card">
+                <h3>Hardware & IoT</h3>
+                <p>ESP32, Arduino Uno, C++</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-container fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Dutta Restaurant Platform</h3>
+                    <p>A multi-page business website featuring a custom thali builder interface and a smart reservation modal.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Social Media Dashboard</h3>
+                    <p>A dynamic dashboard focusing on state management, seamless routing, and responsive data visualization.</p>
+                    <div class="tech-tags">
+                        <span>React</span><span>CSS Grid</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Railway Crack Detection</h3>
+                    <p>An embedded systems safety project utilizing ESP32 microcontrollers and precise ultrasonic sensors.</p>
+                    <div class="tech-tags">
+                        <span>ESP32</span><span>C++</span><span>IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-container fade-in">
+        <h2 class="section-title">Let's Connect</h2>
+        <p style="margin-bottom: 2rem; color: #666;">I am currently seeking internship opportunities and collaborative projects.</p>
+        <form id="contactForm" class="contact-form">
+            <div class="input-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Developer Portfolio. Built for the modern web.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
